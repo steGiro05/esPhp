@@ -1,0 +1,18 @@
+table{
+	border: 2px solid black;
+}
+
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.contenitore {
+	display: flex; /* Utilizziamo flexbox per allineare gli elementi affianco */
+	align-items: center; /* Allinea verticalmente i contenuti */
+  }
+  
+  h3, p {
+	margin: 0; /* Rimuove il margine predefinito */
+  }
+  
