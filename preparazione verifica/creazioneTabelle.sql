@@ -1,4 +1,4 @@
-CREATE database 5bi_film
+CREATE database 5bi_film;
 
 CREATE TABLE genere (
     id INT(11) PRIMARY KEY AUTO_INCREMENT,
