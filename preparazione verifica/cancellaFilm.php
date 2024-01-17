@@ -37,7 +37,7 @@ if ($mydb->connect_errno) {
 
         if (conferma) {
             // L'utente ha confermato, invia una richiesta al server per l'eliminazione
-            window.location.href = 'cancellaFilm.script.php?idFilm=$idFilm    ';
+            window.location.href = 'cancellaFilm.script.php?idFilm=$idFilm';
         } else {
             // L'utente ha annullato, non fare nulla
         }

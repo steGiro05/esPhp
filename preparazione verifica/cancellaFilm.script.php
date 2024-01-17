@@ -7,7 +7,7 @@ if ($mydb->connect_errno) {
     exit();
 }
 
-$id = $_SESSION['filmId'];
+$id = $_GET['idFilm'];
 
 $stmt1 = $mydb->prepare("DELETE FROM appartiene WHERE fkFilm= (?)");
 $stmt1->bind_param("s", $id);
